@@ -144,7 +144,7 @@ Verify running containers:
 ```sh
 docker ps
 ```
-📸 **Attach Screenshot:** `docker ps` output showing all services running.
+
 
 ---<img width="760" alt="image" src="https://github.com/user-attachments/assets/628d45c9-9449-4bdb-8894-3782c64b46c8" />
 
@@ -155,28 +155,28 @@ docker ps
 ```sh
 curl http://localhost:3000/users
 ```
-📸 **Attach Screenshot:** Output showing list of users.
+
 ![Screenshot 2025-03-22 113704](https://github.com/user-attachments/assets/4abcafcf-803f-402a-9220-687e34f77076)
 
 #### **Product Service**
 ```sh
 curl http://localhost:3001/products
 ```
-📸 **Attach Screenshot:** Output showing list of products.
+
 ![Screenshot 2025-03-22 113809](https://github.com/user-attachments/assets/5f207949-3fe4-4f45-a177-60b899ce3f15)
 
 #### **Order Service**
 ```sh
 curl http://localhost:3002/orders
 ```
-📸 **Attach Screenshot:** Output showing list of orders.
+
 ![Screenshot 2025-03-22 113845](https://github.com/user-attachments/assets/cf6ce307-15d1-4554-b634-fa101c28f578)
 
 #### **Gateway Service**
 ```sh
 curl http://localhost:3003/gateway
 ```
-📸 **Attach Screenshot:** Output showing gateway response.
+
 ![Screenshot 2025-03-22 113920](https://github.com/user-attachments/assets/369807a4-2003-49b8-8216-358eec9f4603)
 
 
@@ -241,7 +241,7 @@ curl http://your-ec2-ip:3001/products
 curl http://your-ec2-ip:3002/orders
 curl http://your-ec2-ip:3003/gateway
 ```
-📸 **Attach Screenshot:** API responses from EC2.
+
 ![Screenshot 2025-03-22 120026](https://github.com/user-attachments/assets/232a5b0d-fb37-413c-8637-409e46caa3b6)
 
 ![Screenshot 2025-03-22 115948](https://github.com/user-attachments/assets/5bba9e3d-b767-4f53-935a-905896ddcca2)
@@ -263,7 +263,7 @@ docker logs microservices-user-service-1
 docker-compose down && docker-compose up --build -d
 ```
 
-📸 **Attach Screenshot:** If errors occur, include logs.
+
 
 ---
 
@@ -274,7 +274,8 @@ tar -czvf submission.tar.gz submission/
 ```
 Upload `submission.zip` as per the submission guidelines.
 
-📸 **Attach Screenshot:** Final folder structure before zipping.
+<img width="332" alt="image" src="https://github.com/user-attachments/assets/f816ad95-6539-45c4-98bc-db2e7c868ee6" />
+
 
 ---
 
