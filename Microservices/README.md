@@ -212,7 +212,8 @@ exit
 ssh -i your-key.pem ubuntu@your-ec2-ip
 ```
 
-📸 **Attach Screenshot:** Docker installation verification (`docker --version`).
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/0eb3cf49-d4a9-4076-aab8-1ceb93eca095" />
+
 
 ---
 
@@ -227,7 +228,8 @@ On EC2:
 cd Microservices-Task/Microservices
 docker-compose up --build -d
 ```
-📸 **Attach Screenshot:** `docker ps` output on EC2 instance.
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/78e992a8-0342-45c5-b51e-5598d515486d" />
+
 
 ---
 
@@ -240,6 +242,13 @@ curl http://your-ec2-ip:3002/orders
 curl http://your-ec2-ip:3003/gateway
 ```
 📸 **Attach Screenshot:** API responses from EC2.
+![Screenshot 2025-03-22 120026](https://github.com/user-attachments/assets/232a5b0d-fb37-413c-8637-409e46caa3b6)
+
+![Screenshot 2025-03-22 115948](https://github.com/user-attachments/assets/5bba9e3d-b767-4f53-935a-905896ddcca2)
+
+![Screenshot 2025-03-22 115919](https://github.com/user-attachments/assets/7d7d2f0b-00e5-4ecc-8999-30cd1f77a2d8)
+
+![Screenshot 2025-03-22 115845](https://github.com/user-attachments/assets/87f67894-3dfb-4d29-9004-1ff54691108b)
 
 ---
 
