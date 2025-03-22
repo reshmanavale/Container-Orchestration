@@ -146,7 +146,8 @@ docker ps
 ```
 📸 **Attach Screenshot:** `docker ps` output showing all services running.
 
----
+---<img width="760" alt="image" src="https://github.com/user-attachments/assets/628d45c9-9449-4bdb-8894-3782c64b46c8" />
+
 
 ### **4️⃣ Test API Endpoints**
 
@@ -155,24 +156,29 @@ docker ps
 curl http://localhost:3000/users
 ```
 📸 **Attach Screenshot:** Output showing list of users.
+![Screenshot 2025-03-22 113704](https://github.com/user-attachments/assets/4abcafcf-803f-402a-9220-687e34f77076)
 
 #### **Product Service**
 ```sh
 curl http://localhost:3001/products
 ```
 📸 **Attach Screenshot:** Output showing list of products.
+![Screenshot 2025-03-22 113809](https://github.com/user-attachments/assets/5f207949-3fe4-4f45-a177-60b899ce3f15)
 
 #### **Order Service**
 ```sh
 curl http://localhost:3002/orders
 ```
 📸 **Attach Screenshot:** Output showing list of orders.
+![Screenshot 2025-03-22 113845](https://github.com/user-attachments/assets/cf6ce307-15d1-4554-b634-fa101c28f578)
 
 #### **Gateway Service**
 ```sh
 curl http://localhost:3003/gateway
 ```
 📸 **Attach Screenshot:** Output showing gateway response.
+![Screenshot 2025-03-22 113920](https://github.com/user-attachments/assets/369807a4-2003-49b8-8216-358eec9f4603)
+
 
 ---
 
