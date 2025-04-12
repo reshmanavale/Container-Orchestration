@@ -39,32 +39,24 @@ docker build -t your-registry/gateway-service:latest ./gateway-service
 ```
 Since we have already Build it ealier, we'll use those : 
 
-![image](https://github.com/user-attachments/assets/df053d0c-1485-4a6d-8608-9e89440ba816)
+
 
 
 ## Deployment Steps
 
-1. Create the Kubernetes namespace (optional):
-
-```bash
-kubectl create namespace microservices
-kubectl config set-context --current --namespace=microservices
-```
-![image](https://github.com/user-attachments/assets/d9994d19-68df-4f80-9640-dc9eaede0148)
-
-
-2. Apply all deployment configurations:
+1. Apply all deployment configurations:
 
 ```bash
 kubectl apply -f deployments/
 ```
 
-3. Apply all service configurations:
+2. Apply all service configurations:
 
 ```bash
 kubectl apply -f services/
 ```
-![image](https://github.com/user-attachments/assets/24295a71-dc8b-439c-9a25-841d9fa827a2)
+![Uploading Screenshot 2025-04-12 125146.png…]()
+
 
 Port Forward and Test the services : 
 ![image](https://github.com/user-attachments/assets/c759c4e1-ae35-423b-a43e-7ed0636c7a56)
