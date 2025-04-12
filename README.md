@@ -42,6 +42,7 @@ docker build -t your-registry/gateway-service:latest ./gateway-service
 Since we have already Build it ealier, we'll use those : 
 
 
+![Screenshot 2025-04-12 134323](https://github.com/user-attachments/assets/4e0385e4-6191-4627-bea9-e931662ebd60)
 
 
 ## Deployment Steps
